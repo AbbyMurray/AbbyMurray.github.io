@@ -1,0 +1,29 @@
+html, body {
+  	margin: 0;
+  	padding: 0;}
+
+ body {
+ 	width:80vw;
+ 	margin-left:10vw;
+ 	}
+
+h1 { font-family: 'Yatra One', cursive;}
+
+h2 { font-family: 'Halant', serif;}
+
+p {
+	font-family: 'Halant', serif;
+	font-size: 20px;
+	line-height: 28px;
+	margin-top: 0;
+	margin-bottom: 0;}
+
+
+.pullquote {
+	font-family: 'Yatra One', cursive;
+	color: rgb(20, 43, 200);
+	font-size: 48px;
+	line-height: 56px;
+	padding-top: 30px;
+	padding-bottom: 30px;}
+
