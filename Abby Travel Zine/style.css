@@ -7,6 +7,7 @@ html, body {
  	background-color: #f2f3f0;
  	}
 
+
  .photo {background-image:url(Laundry.jpg);
 		width: 100vw;
 		height: 70vh;
@@ -14,7 +15,8 @@ html, body {
 		background-position: center center;
 		background-repeat: no-repeat;}
  
- .cover {background-image: url(Budapest.jpg);}
+ .cover {background-image: url(Poster.jpg);
+ 		height: 100vh;}
 
  .window{background-image: url(Window.jpg);}
 
