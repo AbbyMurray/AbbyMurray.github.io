@@ -1,0 +1,158 @@
+
+body {
+    height: calc(100vh - 8em);
+    padding: 4em;
+    color: rgba(255,255,255,.75);
+    font-family: 'Courier New', serif;
+    background-color: rgb(25,25,25);}
+
+
+h1 {font-family: 'Courier New', serif;
+    font-size: 15pt;
+    text-align: center;}
+
+
+
+.line-1{
+    position: relative;
+    top: 20%;  
+    width: 150px;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 140%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden; 
+    transform: translateY(-50%);
+    animation-fill-mode: both;}
+
+  .line-2 {animation-delay: 60s !important;}
+  .line-3 {animation-delay: 120s !important;}
+  .line-4 { animation-delay: 180s !important;}
+  .line-5 {animation-delay: 240s !important;}
+  .line-6 {animation-delay: 300s !important;}
+  .line-7 {animation-delay: 360s !important;}
+  .line-8 {animation-delay: 420s !important;}
+  .line-9 {animation-delay: 480s !important;}
+  .line-10 {animation-delay: 540s !important;}
+  .line-11 {animation-delay: 600s !important;}
+  .line-12 {animation-delay: 660s !important;}
+  .line-13 {animation-delay: 720s !important;}
+  .line-14 {animation-delay: 780s !important;}
+  .line-15 {animation-delay: 840s !important;}
+  .line-16 {animation-delay: 900s !important;}
+  .line-17 {animation-delay: 960s !important;}
+  .line-18 {animation-delay: 1020s !important;}
+  .line-19 {animation-delay: 1080s !important;}
+  .line-20 {animation-delay: 1140s !important;}
+  .line-21 {animation-delay: 1200s !important;}
+  .line-22 {animation-delay: 1260s !important;}
+  .line-23 {animation-delay: 1320s !important;}
+  .line-24 {animation-delay: 1380s !important;}
+  .line-25 {animation-delay: 1440s !important;}
+  .line-26 {animation-delay: 1500s !important;}
+  .line-27 {animation-delay: 1560s !important;}
+  .line-28 {animation-delay: 1620s !important;}
+  .line-29 {animation-delay: 1680s !important;}
+  .line-30 {animation-delay: 1740s !important;}
+  .line-31 {animation-delay: 1800s !important;}
+  .line-32 {animation-delay: 1860s !important;}
+  .line-33 {animation-delay: 1920s !important;}
+  .line-34 {animation-delay: 1980s !important;}
+  .line-35 {animation-delay: 2040s !important;}
+  .line-36 {animation-delay: 2100s !important;}
+  .line-37 {animation-delay: 2160s !important;}
+  .line-38 {animation-delay: 2220s !important;}
+  .line-39 {animation-delay: 2280s !important;}
+  .line-40 {animation-delay: 2340s !important;}
+  .line-41 {animation-delay: 2400s !important;}
+  .line-42 {animation-delay: 2460s !important;}
+  .line-43 {animation-delay: 2520s !important;}
+  .line-44 {animation-delay: 2580s !important;}
+  .line-45 {animation-delay: 2640s !important;}
+  .line-46 {animation-delay: 2700s !important;}
+  .line-47 {animation-delay: 2760s !important;}
+  .line-48 {animation-delay: 2820s !important;}
+  .line-49 {animation-delay: 2880s !important;}
+  .line-50 {animation-delay: 2940s !important;}
+
+
+.rgba {
+  background-color: (255,255,255,.75);
+  font-size: 180%;
+  text-align: center;
+  transform: translateY(-50%);}
+
+ .anim-typewriter{
+  animation: typewriter 60s steps(60) 1s 1 normal both,
+             blinkTextCursor .5s steps(60) infinite normal;}
+
+
+.button {
+  background-color: rgb(200,200,200);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.alarming {
+  
+  
+  animation-name: pulse;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes typewriter {
+
+  from{width:0;}
+  to{width:36em;}
+
+  0% {opacity: 0;}
+  100% {opacity: 100; }
+  
+}
+
+@keyframes pulse {
+  0% {
+    background-color:rgba(255,255,255,.75)
+    color: white;
+  }
+  
+  100% {
+    
+    background-color:white;
+    color: black;
+
+  }
+
+  
+
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+
+.button {
+  background-color: rgb(200,200,200);
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;}
+
+.alarming {
+  
+  opacity: 1;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+}
+
+
+}
+
+
+
+
